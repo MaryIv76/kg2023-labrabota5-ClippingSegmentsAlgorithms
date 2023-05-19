@@ -1,1 +1,40 @@
-# kg2023-labrabota5-ClippingSegmentsAlgorithms
+# Автор
+**Иванова Мария, 13 гр.**
+
+# Предмет 
+Компьютерная графика. Лабораторная работа 5. Алгоритмы отсечения отрезков и многоугольников
+
+# Запуск приложения
+Чтобы запустить приложение следует скачать и запустить [main.exe](https://github.com/MaryIv76/kg2023-labrabota5-ClippingSegmentsAlgorithms/tree/main/exe)
+
+# Установка приложения
+1. Клонировать репозиторий
+
+```
+git clone https://github.com/MaryIv76/kg2023-labrabota5-ClippingSegmentsAlgorithms.git
+```
+
+2. Установить pyinstaller
+```
+pip install pyinstaller
+```
+
+3. Создать exe файл
+```
+pyinstaller --onefile -w main.py
+```
+
+# Необходимые библиотеки
+```
+pip install matplotlib
+```
+```
+pip install numpy
+```
+
+# Описание
+Данное приложение является графическим приложением, написанным на Python.
+
+В приложении реализованы следующие алгоритмы отсечения отрезков:
+* Алгоритм Сазерленда-Коэна
+* Алгоритм отсечения отрезков выпуклым многоугольником (алгоритм Кируса-Бека)
