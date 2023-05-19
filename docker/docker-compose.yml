@@ -1,0 +1,8 @@
+version: "3"
+services:
+  app:
+    image: maryiv/lab5_clipping_segments_algorithms
+    build: ./
+    command: python ./main.py
+    environment:
+      - DISPLAY=host.docker.internal:0.0
